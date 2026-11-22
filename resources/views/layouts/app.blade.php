@@ -4,12 +4,12 @@
     <title>@yield('title') - Laravel POS</title>
 </head>
 <body>
-    <nav>
-        <a href="{{ url('/') }}">Home</a> |
-        <a href="{{ url('/about') }}">About</a> |
-        <a href="{{ url('/customers') }}">Customers</a> |
-        <a href="{{ url('/users') }}">Users</a>
-    </nav>
+ <nav>
+    <a href="{{ route('home') }}">Today</a> |
+    <a href="{{ route('tasks.index') }}">Task List</a> |
+    <a href="{{ route('profile') }}">Profile</a> |
+    <a href="{{ route('about') }}">About</a>
+</nav>
 
     <hr>
 
